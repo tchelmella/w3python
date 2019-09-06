@@ -1,0 +1,10 @@
+thisset = {"apple","banana","cherry"}
+thisset.remove("banana")
+print(thisset)
+thisset.update(["banana","grape"])
+print(thisset)
+x = thisset.pop()
+print(x)
+print(thisset)
+y = thisset.pop()
+print(thisset)
